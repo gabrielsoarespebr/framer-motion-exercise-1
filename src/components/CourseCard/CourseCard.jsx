@@ -15,7 +15,7 @@ export const CourseCard = ({ course }) => {
         />
         <div className="p-4">
           <p>{course.title}</p>
-          <p>{course.level}</p>
+          <p className="text-gray-500 line-clamp-3">{course.description}</p>
         </div>
       </div>
     </motion.div>
