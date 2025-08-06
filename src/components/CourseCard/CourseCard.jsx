@@ -13,7 +13,7 @@ export const CourseCard = ({ course }) => {
         <img
           src="https://www.hiberus.com/sites/default/files/2025-06/Liferay%20%281%29.jpg"
           alt="Liferay course default image"
-          className="w-full"
+          className="w-full rounded-t"
         />
         <div className="p-4">
           <p>{course.title}</p>
