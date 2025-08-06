@@ -4,11 +4,12 @@ import { Signal, SignalHigh, SignalMedium } from "lucide-react";
 export const CourseCard = ({ course }) => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 200 }}
+      initial={{ opacity: 0, y: 200, scale: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 2 }}
+      whileHover={{ scale: 1.03 }}
+      transition={{ duration: 0.5 }}
     >
-      <div className="border border-gray-300 rounded relative shadow-md">
+      <div className="border border-gray-300 rounded relative shadow-md hover:shadow-lg">
         <img
           src="https://www.hiberus.com/sites/default/files/2025-06/Liferay%20%281%29.jpg"
           alt="Liferay course default image"
