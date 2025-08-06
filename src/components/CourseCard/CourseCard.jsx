@@ -8,7 +8,7 @@ export const CourseCard = ({ course }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 2 }}
     >
-      <div className="border rounded relative">
+      <div className="border border-gray-300 rounded relative shadow-md">
         <img
           src="https://www.hiberus.com/sites/default/files/2025-06/Liferay%20%281%29.jpg"
           alt="Liferay course default image"
